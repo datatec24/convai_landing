@@ -6,6 +6,7 @@ html, body{
     padding:0;
     overflow-x: scroll;
     font-family: Garamond,Helvetica,Arial,sans-serif;
+
 }
 
 h1,h2,p{
@@ -316,13 +317,36 @@ a{
 
 @media screen and (max-width: 800px) and (min-width: 1px) {
 
+
+    html, body{
+        margin:0;
+        padding:0;
+        overflow-x: scroll;
+        font-family: Garamond,Helvetica,Arial,sans-serif;
+        height: 100vh;
+
+    }
+
+    h1,h2,p{
+        color: black;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+    }
+
+body{
+    background-size:cover;
+    background-color:transparent;
+    background-position:50% 50%;
+    background-image:url(../assets/background.png);
+    height: 100vh;
+}
+
     .container_video_demo{
-        height: 750px;
-        background-repeat:no-repeat;
-        background-size:cover;
-        background-color:transparent;
-        background-position:50% 50%;
-        background-image:url(../assets/background.png);
+
+
     }
 
     .logo_container{
@@ -357,7 +381,6 @@ a{
     }
 
     .wrapper-text{
-        height: 100%;
         width: 100%;
         text-align: center;
     }
