@@ -135,7 +135,7 @@ form{
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: pink;
+  color: grey;
   font-family: Garamond,Helvetica,Arial,sans-serif;
   font-size: 20px;
   font-weight: bold;;
