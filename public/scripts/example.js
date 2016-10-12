@@ -65,7 +65,7 @@ var CommentBox = React.createClass({
     return (
       <div className="commentBox">
         <CommentForm onCommentSubmit={this.handleCommentSubmit} />
-        <p>Thanks for your interest, we will come back to you asap !</p>
+        <p>{this.state.message}</p>
       </div>
     );
   }
