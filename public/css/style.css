@@ -1,68 +1,58 @@
 
 @media screen and (min-width: 700px) {
 
-html, body{
-    margin:0;
-    padding:0;
-    overflow-x: scroll;
-    font-family: Garamond,Helvetica,Arial,sans-serif;
+    html, body{
+        margin:0;
+        padding:0;
+        overflow-x: scroll;
+        font-family: Garamond,Helvetica,Arial,sans-serif;
 
-}
+    }
 
-h1,h2,p{
-    color: black;
-}
+    h1,h2,p{
+        color: black;
+    }
 
-a{
-    color:white;
-    text-decoration: none;
-}
+    a{
+        color:white;
+        text-decoration: none;
+    }
 
-body{
-    background-size:cover;
-    background-color:transparent;
-    background-position:50% 50%;
-    background-image:url(../assets/background.png);
-    height: 100vh;
-}
+    body{
+        background-size:cover;
+        background-color:transparent;
+        background-position:50% 50%;
+        background-image:url(../assets/background.png);
+        height: 100vh;
+    }
 
-.container_video_demo{
-    height: 100vh;
-    /*background-repeat:no-repeat;
-    background-size:cover;
-    background-color:transparent;
-    background-position:50% 50%;
-    background-image:url(../assets/background.png);*/
-}
+    .container_video_demo{
+        height: 100vh;
+        /*background-repeat:no-repeat;
+        background-size:cover;
+        background-color:transparent;
+        background-position:50% 50%;
+        background-image:url(../assets/background.png);*/
+    }
 
-.logo_container{
-    margin-bottom: 50px;
-}
+    .logo_container{
+        margin-bottom: 50px;
+    }
 
-.container-img{
-    float: left;
-    width:40%;
-    height: 100%;
-    margin: 0;
-}
+    .container-img{
+        float: left;
+        width:40%;
+        height: 100%;
+        margin: 0;
+    }
 
-.imageBox{
-    position: relative;
-    height: 100%;
-    text-align: center;
+    .imageBox{
+        position: relative;
+        height: 100%;
+        text-align: center;
 
-}
+    }
 
-
-#imagedefilement img{
-    position: absolute;
-    top: 50%;
-    /*height: 600px;
-    width: 311.58px;
-    margin: -300px 0 0 -100px;*/
-    width: 311px;
-    margin: -300px 0 0 -19.5%;
-}
 
 @media screen and (min-width: 1000px){
 #imagedefilement img{
@@ -87,7 +77,6 @@ body{
     text-align: center;
     overflow: hidden;
 }
-
 
 .wrapper2{
     position: absolute;
@@ -121,14 +110,11 @@ body{
     text-align: center;
 }
 
-
-
 form{
     position: relative;
     text-align: left;
 
 }
-
 
 #mailbeta input[type=text]{
     width: 50%;
@@ -174,159 +160,158 @@ form{
 }
 
 
-    #mailbeta #button-video{
-        position: absolute;
-        top:0;
-        margin-left: 10px;
-        height: 40px;
-        width: 20%;
-        border: 0px solid blue;
-        border-radius: 30px;
+#mailbeta #button-video{
+    position: absolute;
+    top:0;
+    margin-left: 10px;
+    height: 40px;
+    width: 20%;
+    border: 0px solid blue;
+    border-radius: 30px;
 
-        color: white;
-        background-color: #4cbfe6;
-        display: inline-block !important;
-        font-size: 12.5px;
-        font-weight: normal;
-        line-height: 23px;
-        padding: 0 2.5px 0 2.5px;
-        cursor: pointer;
+    color: white;
+    background-color: #4cbfe6;
+    display: inline-block !important;
+    font-size: 12.5px;
+    font-weight: normal;
+    line-height: 23px;
+    padding: 0 2.5px 0 2.5px;
+    cursor: pointer;
 
-    }
+}
 
 }
 
 @media screen and (max-width:1000px) and (min-width: 700px){
 
-#imagedefilement img{
-    position: absolute;
-    top: 50%;
-    /*height: 600px;
-    width: 311.58px;
-    margin: -300px 0 0 -100px;*/
-    width: 311px;
-    margin: -300px 0 0 -150px;
-}
-
-.text-video{
-    margin-left:40%;
-    height: 100%;
-}
-
-.wrapper-text{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-}
-
-
-.wrapper2{
-    position: absolute;
-    top:50%;
-    left: 0;
-    width: 100%;
-    height: 587px;
-    margin: -295px 0 0 0;
-}
-
-.title1{
-    font-size:40px;
-    font-weight:700;
-    line-height:60px;
-    margin:0 0 50px 0;
-    color: white;
-    text-align: center;
-    padding: 0 40px;
-
-}
-
-.title2{
-    margin-bottom:50px;
-    margin-top: 0px;
-    padding: 0 60px;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: normal;
-    color: white;
-    text-align: center;
-}
-
-
-
-form{
-    position: relative;
-    text-align: left;
-
-}
-
-
-#mailbeta input[type=text]{
-    width: 35%;
-    height: 40px;
-    padding: 0px;
-    margin-left: 90px;
-    border: 0px solid;
-    border-radius: 30px;
-    color: black;
-    display: inline-block !important;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 23px;
-    padding: 0 15px;
-
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  coloer: grey;
-  font-style: Garamond,Helvetica,Arial,sans-serif;
-  font-size: 20px;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: grey;
-  font-style: Garamond,Helvetica,Arial,sans-serif;
-  font-size: 20px;
-
-
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: grey;
-  font-style: Garamond,Helvetica,Arial,sans-serif;
-  font-size: 20px;
-
-
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: grey;
-  font-style: Garamond,Helvetica,Arial,sans-serif;
-  font-size: 20px;
-
-
-}
-
-
-    #mailbeta #button-video{
+    #imagedefilement img{
         position: absolute;
-        top:0;
-        margin-left: 10px;
-        height: 40px;
-        width: 50%;
-        border: 0px solid blue;
-        border-radius: 30px;
+        top: 50%;
+        /*height: 600px;
+        width: 311.58px;
+        margin: -300px 0 0 -100px;*/
+        width: 311px;
+        margin: -300px 0 0 -150px;
+    }
 
+    .text-video{
+        margin-left:40%;
+        height: 100%;
+    }
+
+    .wrapper-text{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+
+
+    .wrapper2{
+        position: absolute;
+        top:50%;
+        left: 0;
+        width: 100%;
+        height: 587px;
+        margin: -295px 0 0 0;
+    }
+
+    .title1{
+        font-size:40px;
+        font-weight:700;
+        line-height:60px;
+        margin:0 0 50px 0;
         color: white;
-        background-color: #4cbfe6;
-        display: inline-block !important;
-        font-size: 12.5px;
+        text-align: center;
+        padding: 0 40px;
+
+    }
+
+    .title2{
+        margin-bottom:50px;
+        margin-top: 0px;
+        padding: 0 60px;
+        font-size: 20px;
+        line-height: 30px;
         font-weight: normal;
-        line-height: 10px;
-        padding: 0 1px 0 1px;
-        cursor: pointer;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+
+    form{
+        position: relative;
+        text-align: left;
 
     }
 
 
+    #mailbeta input[type=text]{
+        width: 50%;
+        height: 40px;
+        margin-left: 70px;
+        border: 0px solid;
+        border-radius: 30px;
+        color: black;
+        display: inline-block !important;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 23px;
+        padding: 0 15px;
+
+    }
+
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      coloer: grey;
+      font-style: Garamond,Helvetica,Arial,sans-serif;
+      font-size: 20px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: grey;
+      font-style: Garamond,Helvetica,Arial,sans-serif;
+      font-size: 20px;
+
+
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: grey;
+      font-style: Garamond,Helvetica,Arial,sans-serif;
+      font-size: 20px;
+
+
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: grey;
+      font-style: Garamond,Helvetica,Arial,sans-serif;
+      font-size: 20px;
+
+
+    }
+
+
+        #mailbeta #button-video{
+            position: absolute;
+            top:0;
+            margin-left: 10px;
+            height: 40px;
+            width: 23%;
+            border: 0px solid blue;
+            border-radius: 30px;
+
+            color: white;
+            background-color: #4cbfe6;
+            display: inline-block !important;
+            font-size: 12.5px;
+            font-weight: normal;
+            line-height: 10px;
+            padding: 0 2.5px 0 2.5px;
+            cursor: pointer;
+
+        }
 }
 
 .text-video{
@@ -352,28 +337,7 @@ form{
     margin: -295px 0 0 0;
 }
 
-.title1{
-    font-size:50px;
-    font-weight:700;
-    line-height:60px;
-    margin:0 0 50px 0;
-    color: white;
-    text-align: center;
-    padding: 0 40px;
 
-}
-
-.title2{
-    margin-bottom:50px;
-    margin-top: 0px;
-    padding: 0 60px;
-
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: normal;
-    color: white;
-    text-align: center;
-}
 
 
 
