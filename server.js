@@ -35,7 +35,11 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get('/api/datatec', function(req, res) {
+app.get('/ok', function(req,res){
+    console.log('ok')
+});
+
+app.get('/api/comments', function(req, res) {
   fs.readFile(COMMENTS_FILE, function(err, data) {
     if (err) {
       console.error(err);

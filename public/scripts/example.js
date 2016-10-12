@@ -40,6 +40,13 @@ var CommentBox = React.createClass({
       data: comment,
       success: function(data) {
         this.setState({data: data});
+        this.setState({message:'Thanks for your interest, we will come back to you asap !'});
+        setTimeout(function(){
+            this.setState({message:''});
+            console.log('ok');
+
+        }.bind(this),3000);
+        console.log('ok sucess requete post');
       }.bind(this),
       error: function(xhr, status, err) {
         this.setState({data: comments});
@@ -58,6 +65,7 @@ var CommentBox = React.createClass({
     return (
       <div className="commentBox">
         <CommentForm onCommentSubmit={this.handleCommentSubmit} />
+        <p>Thanks for your interest, we will come back to you asap !</p>
       </div>
     );
   }
@@ -85,14 +93,14 @@ var CommentForm = React.createClass({
       <label>
             <input
               type="text"
-              placeholder="Email Address"
+              placeholder="Email"
               value={this.state.author}
               onChange={this.handleAuthorChange}
             />
         </label>
 
         <button id="button-video" onClick={this.handleSubmit}>
-            Subscribe Now
+            Stay tuned!
         </button>
       </form>
     );
