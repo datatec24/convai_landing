@@ -1,0 +1,440 @@
+
+@media screen and (max-width: 100000px) and (min-width: 1600px) {
+
+html, body{
+    margin:0;
+    padding:0;
+    overflow-x: scroll;
+    font-family: Garamond,Helvetica,Arial,sans-serif;
+}
+
+h1,h2,p{
+    color: black;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.container_video_demo{
+    position: relative;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:transparent;
+    background-position:50% 50%;
+    background-image:url(../assets/background.png);
+}
+
+.logo_container{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.container-img{
+    float: left;
+    width:40%;
+    height: 100%;
+    margin: 0;
+}
+
+.imageBox{
+    position: relative;
+    height: 100%;
+
+}
+
+#imagedefilement img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1000px;
+    width: 519.35px;
+    margin: -500px 0 0 -100px;
+
+
+}
+
+.text-video{
+    margin-left:40%;
+    height: 100%;
+}
+
+.wrapper-text{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 100000px) and (min-width: 2400px){
+    .wrapper2{
+        position: absolute;
+        top:50%;
+        left: 0;
+        width: 100%;
+        margin: -25% 0 0 0;
+    }
+
+    .title1{
+        font-size:130px;
+        font-weight:700;
+        line-height:120px;
+        margin:0 0 150px 0;
+        color: white;
+        text-align: center;
+        padding: 0 40px;
+
+    }
+
+    .title2{
+        margin-bottom:150px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: normal;
+        color: white;
+        width: 80%;
+        text-align: center;
+    }
+
+
+
+    form{
+        position: relative;
+        text-align: left;
+
+    }
+
+
+    #mailbeta input[type=text]{
+        width: 50%;
+        height: 80px;
+        padding: 0px;
+        margin-left: 15%;
+        border: 0px solid;
+        color: black;
+        display: inline-block !important;
+        font-size: 40px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 30px;
+
+    }
+
+
+    #mailbeta #button-video{
+        position: absolute;
+        top:0;
+        height: 80px;
+        width: 20%;
+        border: 0px solid blue;
+        color: white;
+        background-color: #4cbfe6;
+        display: inline-block !important;
+        font-size: 25px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 5px 0 5px;
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (max-width: 2400px) and (min-width: 2000px){
+    .wrapper2{
+        position: absolute;
+        top:50%;
+        left: 0;
+        width: 100%;
+        margin: -30% 0 0 0;
+    }
+
+    .title1{
+        font-size:100px;
+        font-weight:700;
+        line-height:120px;
+        margin:0 0 150px 0;
+        color: white;
+        text-align: center;
+        padding: 0 40px;
+
+    }
+
+    .title2{
+        margin-bottom:150px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: normal;
+        color: white;
+        width: 80%;
+        text-align: center;
+    }
+
+
+
+    form{
+        position: relative;
+        text-align: left;
+
+    }
+
+
+    #mailbeta input[type=text]{
+        width: 50%;
+        height: 80px;
+        padding: 0px;
+        margin-left: 15%;
+        border: 0px solid;
+        color: black;
+        display: inline-block !important;
+        font-size: 40px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 30px;
+
+    }
+
+
+    #mailbeta #button-video{
+        position: absolute;
+        top:0;
+        height: 80px;
+        width: 20%;
+        border: 0px solid blue;
+        color: white;
+        background-color: #4cbfe6;
+        display: inline-block !important;
+        font-size: 25px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 5px 0 5px;
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1600px) {
+    .wrapper2{
+        position: absolute;
+        top:50%;
+        left: 0;
+        width: 100%;
+        margin: -40% 0 0 0;
+    }
+
+    .title1{
+        font-size:80px;
+        font-weight:700;
+        line-height:120px;
+        margin:0 0 150px 0;
+        color: white;
+        text-align: center;
+        padding: 0 40px;
+
+    }
+
+    .title2{
+        margin-bottom:150px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: normal;
+        color: white;
+        width: 80%;
+        text-align: center;
+    }
+
+
+
+    form{
+        position: relative;
+        text-align: left;
+
+    }
+
+
+    #mailbeta input[type=text]{
+        width: 50%;
+        height: 80px;
+        padding: 0px;
+        margin-left: 15%;
+        border: 0px solid;
+        color: black;
+        display: inline-block !important;
+        font-size: 40px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 30px;
+
+    }
+
+
+    #mailbeta #button-video{
+        position: absolute;
+        top:0;
+        height: 80px;
+        width: 20%;
+        border: 0px solid blue;
+        color: white;
+        background-color: #4cbfe6;
+        display: inline-block !important;
+        font-size: 25px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 5px 0 5px;
+        cursor: pointer;
+
+    }
+}
+
+
+
+#footer{
+    background-color: #4cbfe6;
+
+}
+
+.footer-container{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px auto;
+}
+
+.footer-container p{
+    margin: 0;
+}
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1px) {
+
+    .container_video_demo{
+        height: 1500px;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-color:transparent;
+        background-position:50% 50%;
+        background-image:url(../assets/background.png);
+    }
+
+    .logo_container{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+
+    .container-img{
+        padding-top: 50px;
+    }
+
+    .imageBox{
+        text-align: center;
+
+    }
+
+    #imagedefilement img{
+
+        height: 250px;
+        width: 130px;
+
+    }
+
+    .text-video{
+        margin: 0;
+    }
+
+    .text-video{
+        height: 100%;
+    }
+
+    .wrapper-text{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrapper2{
+        /*position: absolute;
+        top:50%;
+        left: 0;
+        width: 100%;
+        margin: -40% 0 0 0;*/
+    }
+
+    .title1{
+        font-size:50px;
+        font-weight:700;
+        line-height:80px;
+        margin:40px 0 40px 0;
+        color: white;
+        text-align: center;
+        padding: 0 40px;
+
+    }
+
+    .title2{
+        margin-bottom:40px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: normal;
+        color: white;
+        width: 80%;
+        text-align: center;
+    }
+
+
+
+    form{
+        position: relative;
+        text-align: left;
+        padding-bottom: 100px;
+
+    }
+
+
+    #mailbeta input[type=text]{
+        width: 40%;
+        height: 50px;
+        padding: 0px;
+        margin-left: 15%;
+        border: 0px solid;
+        color: black;
+        display: inline-block !important;
+        font-size: 10px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 30px;
+
+    }
+
+
+    #mailbeta #button-video{
+        position: absolute;
+        top:0;
+        height: 50px;
+        width: 20%;
+        border: 0px solid #4cbfe6;
+        color: white;
+        background-color: #4cbfe6;
+        display: inline-block !important;
+        font-size: 8px;
+        font-weight: normal;
+        line-height: 46px;
+        padding: 0 5px 0 5px;
+        cursor: pointer;
+
+    }
+
+
+}

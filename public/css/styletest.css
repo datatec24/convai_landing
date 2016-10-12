@@ -1,0 +1,11 @@
+
+
+.title1{
+    font-size:100px;
+}
+
+@media screen and (max-width: 2400px) and (min-width: 2000px){
+    .title1{
+        font-size:20px;
+    }
+}

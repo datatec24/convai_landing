@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>React Tutorial</title>
+        <script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+        <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+        <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
+    </head>
+  <body>
+      <style>
+            label {
+            margin-right: -5px;
+            }
+      </style>
+
+        <form className="commentForm" onSubmit={this.handleSubmit}>
+        <label>
+              <input
+                type="text"
+                placeholder="Your name"
+                value={this.state.author}
+                onChange={this.handleAuthorChange}
+              />
+          </label>
+          <label>
+              <input
+                type="text"
+                placeholder="Say something..."
+                value={this.state.text}
+                onChange={this.handleTextChange}
+              />
+          </label>
+          <button class="button-video" type="button">
+              Demander une démo
+          </button>
+        </form>
+</body>
+</html>
