@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 100000px) and (min-width: 1600px) {
+@media screen and (max-width: 100000px) and (min-width: 800px) {
 
 html, body{
     margin:0;
@@ -29,8 +29,8 @@ a{
 
 .logo_container{
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 15px;
+    left: 15px;
 }
 
 .container-img{
@@ -50,9 +50,9 @@ a{
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 1000px;
-    width: 519.35px;
-    margin: -500px 0 0 -100px;
+    height: 500px;
+    width: 260px;
+    margin: -250px 0 0 -50px;
 
 
 }
@@ -70,7 +70,7 @@ a{
 }
 
 
-@media screen and (max-width: 100000px) and (min-width: 2400px){
+@media screen and (max-width: 100000px) and (min-width: 1200px){
     .wrapper2{
         position: absolute;
         top:50%;
@@ -80,22 +80,22 @@ a{
     }
 
     .title1{
-        font-size:130px;
+        font-size:65px;
         font-weight:700;
-        line-height:120px;
-        margin:0 0 150px 0;
+        line-height:60px;
+        margin:0 0 75px 0;
         color: white;
         text-align: center;
-        padding: 0 40px;
+        padding: 0 20px;
 
     }
 
     .title2{
-        margin-bottom:150px;
+        margin-bottom:75px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 25px;
+        line-height: 30px;
         font-weight: normal;
         color: white;
         width: 80%;
@@ -113,16 +113,16 @@ a{
 
     #mailbeta input[type=text]{
         width: 50%;
-        height: 80px;
+        height: 40px;
         padding: 0px;
         margin-left: 15%;
         border: 0px solid;
         color: black;
         display: inline-block !important;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 30px;
+        line-height: 23px;
+        padding: 0 15px;
 
     }
 
@@ -130,22 +130,22 @@ a{
     #mailbeta #button-video{
         position: absolute;
         top:0;
-        height: 80px;
+        height: 40px;
         width: 20%;
         border: 0px solid blue;
         color: white;
         background-color: #4cbfe6;
         display: inline-block !important;
-        font-size: 25px;
+        font-size: 12.5px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 5px 0 5px;
+        line-height: 23px;
+        padding: 0 2.5px 0 2.5px;
         cursor: pointer;
 
     }
 }
 
-@media screen and (max-width: 2400px) and (min-width: 2000px){
+@media screen and (max-width: 1200px) and (min-width: 1000px){
     .wrapper2{
         position: absolute;
         top:50%;
@@ -155,22 +155,22 @@ a{
     }
 
     .title1{
-        font-size:100px;
+        font-size:50px;
         font-weight:700;
-        line-height:120px;
-        margin:0 0 150px 0;
+        line-height:60px;
+        margin:0 0 75px 0;
         color: white;
         text-align: center;
-        padding: 0 40px;
+        padding: 0 20px;
 
     }
 
     .title2{
-        margin-bottom:150px;
+        margin-bottom:75px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 20px;
+        line-height: 30px;
         font-weight: normal;
         color: white;
         width: 80%;
@@ -188,16 +188,16 @@ a{
 
     #mailbeta input[type=text]{
         width: 50%;
-        height: 80px;
+        height: 40px;
         padding: 0px;
         margin-left: 15%;
         border: 0px solid;
         color: black;
         display: inline-block !important;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 30px;
+        line-height: 23px;
+        padding: 0 15px;
 
     }
 
@@ -205,22 +205,22 @@ a{
     #mailbeta #button-video{
         position: absolute;
         top:0;
-        height: 80px;
+        height: 40px;
         width: 20%;
         border: 0px solid blue;
         color: white;
         background-color: #4cbfe6;
         display: inline-block !important;
-        font-size: 25px;
+        font-size: 12.5px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 5px 0 5px;
+        line-height: 23px;
+        padding: 0 2.5px 0 2.5px;
         cursor: pointer;
 
     }
 }
 
-@media screen and (max-width: 2000px) and (min-width: 1600px) {
+@media screen and (max-width: 1000px) and (min-width: 800px) {
     .wrapper2{
         position: absolute;
         top:50%;
@@ -230,22 +230,22 @@ a{
     }
 
     .title1{
-        font-size:80px;
+        font-size:40px;
         font-weight:700;
-        line-height:120px;
-        margin:0 0 150px 0;
+        line-height:60px;
+        margin:0 0 75px 0;
         color: white;
         text-align: center;
-        padding: 0 40px;
+        padding: 0 20px;
 
     }
 
     .title2{
-        margin-bottom:150px;
+        margin-bottom:75px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 20px;
+        line-height: 30px;
         font-weight: normal;
         color: white;
         width: 80%;
@@ -263,16 +263,16 @@ a{
 
     #mailbeta input[type=text]{
         width: 50%;
-        height: 80px;
+        height: 40px;
         padding: 0px;
         margin-left: 15%;
         border: 0px solid;
         color: black;
         display: inline-block !important;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 30px;
+        line-height: 23px;
+        padding: 0 15px;
 
     }
 
@@ -280,16 +280,16 @@ a{
     #mailbeta #button-video{
         position: absolute;
         top:0;
-        height: 80px;
+        height: 40px;
         width: 20%;
         border: 0px solid blue;
         color: white;
         background-color: #4cbfe6;
         display: inline-block !important;
-        font-size: 25px;
+        font-size: 12.5px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 5px 0 5px;
+        line-height: 23px;
+        padding: 0 2.5px 0 2.5px;
         cursor: pointer;
 
     }
@@ -303,9 +303,9 @@ a{
 }
 
 .footer-container{
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
-    padding: 20px auto;
+    padding: 10px auto;
 }
 
 .footer-container p{
@@ -314,10 +314,10 @@ a{
 
 }
 
-@media screen and (max-width: 1600px) and (min-width: 1px) {
+@media screen and (max-width: 800px) and (min-width: 1px) {
 
     .container_video_demo{
-        height: 1500px;
+        height: 750px;
         background-repeat:no-repeat;
         background-size:cover;
         background-color:transparent;
@@ -327,13 +327,13 @@ a{
 
     .logo_container{
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 15px;
+        left: 15px;
     }
 
 
     .container-img{
-        padding-top: 50px;
+        padding-top: 25px;
     }
 
     .imageBox{
@@ -343,8 +343,8 @@ a{
 
     #imagedefilement img{
 
-        height: 250px;
-        width: 130px;
+        height: 125px;
+        width: 65px;
 
     }
 
@@ -371,22 +371,22 @@ a{
     }
 
     .title1{
-        font-size:50px;
+        font-size:25px;
         font-weight:700;
-        line-height:80px;
-        margin:40px 0 40px 0;
+        line-height:40px;
+        margin:20px 0 20px 0;
         color: white;
         text-align: center;
-        padding: 0 40px;
+        padding: 0 20px;
 
     }
 
     .title2{
-        margin-bottom:40px;
+        margin-bottom:20px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 30px;
-        line-height: 50px;
+        font-size: 15px;
+        line-height: 25px;
         font-weight: normal;
         color: white;
         width: 80%;
@@ -398,23 +398,23 @@ a{
     form{
         position: relative;
         text-align: left;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
 
     }
 
 
     #mailbeta input[type=text]{
         width: 40%;
-        height: 50px;
+        height: 25px;
         padding: 0px;
         margin-left: 15%;
         border: 0px solid;
         color: black;
         display: inline-block !important;
-        font-size: 10px;
+        font-size: 5px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 30px;
+        line-height: 23px;
+        padding: 0 15px;
 
     }
 
@@ -422,16 +422,16 @@ a{
     #mailbeta #button-video{
         position: absolute;
         top:0;
-        height: 50px;
+        height: 25px;
         width: 20%;
         border: 0px solid #4cbfe6;
         color: white;
         background-color: #4cbfe6;
         display: inline-block !important;
-        font-size: 8px;
+        font-size: 4px;
         font-weight: normal;
-        line-height: 46px;
-        padding: 0 5px 0 5px;
+        line-height: 23px;
+        padding: 0 2.5px 0 2.5px;
         cursor: pointer;
 
     }
