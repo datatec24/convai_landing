@@ -39,7 +39,7 @@ app.get('/ok', function(req,res){
     console.log('ok')
 });
 
-app.get('/api/comments', function(req, res) {
+app.get('/api/datatec', function(req, res) {
   fs.readFile(COMMENTS_FILE, function(err, data) {
     if (err) {
       console.error(err);
@@ -49,7 +49,7 @@ app.get('/api/comments', function(req, res) {
   });
 });
 
-app.post('/api/comments', function(req, res) {
+app.post('/api/datatec', function(req, res) {
   fs.readFile(COMMENTS_FILE, function(err, data) {
     if (err) {
       console.error(err);
