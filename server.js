@@ -42,7 +42,7 @@ app.get('/ok', function(req,res){
 });
 
 
-app.get('/api', function(req, res) {
+app.get('/api/comments', function(req, res) {
   fs.readFile(COMMENTS_FILE, function(err, data) {
     if (err) {
       console.error(err);
@@ -53,7 +53,7 @@ app.get('/api', function(req, res) {
 });
 
 
-app.post('/api', function(req, res) {
+app.post('/api/comments', function(req, res) {
   fs.readFile(COMMENTS_FILE, function(err, data) {
     if (err) {
       console.error(err);
