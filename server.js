@@ -4,12 +4,25 @@ var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
+var mongoose = require('mongoose');
+var api = require('./routes/api');
+
+
+// Use native Node promises
+mongoose.Promise = global.Promise;
+
+app.set('mongodb_uri',(process.env.MONGODB_URI || 'mongodb://localhost/landingpage'))
+// connect to MongoDB
+mongoose.connect(app.get('mongodb_uri'))
+  .then(() =>  console.log('connection succesful'))
+  .catch((err) => console.error(err));
 
 var COMMENTS_FILE = path.join(__dirname, 'comments.json');
 
 app.set('port', (process.env.PORT || 3000));
 
 app.use('/', express.static(path.join(__dirname, 'public')));
+app.use('/api', api);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -26,42 +39,6 @@ app.use(function(req, res, next) {
 
 app.get('/ok', function(req,res){
     console.log('ok')
-});
-
-app.get('/api/datatec', function(req, res) {
-  fs.readFile(COMMENTS_FILE, function(err, data) {
-    if (err) {
-      console.error(err);
-      process.exit(1);
-    }
-    res.json(JSON.parse(data));
-  });
-});
-
-app.post('/api/datatec', function(req, res) {
-  fs.readFile(COMMENTS_FILE, function(err, data) {
-    if (err) {
-      console.error(err);
-      process.exit(1);
-    }
-    var comments = JSON.parse(data);
-    // NOTE: In a real implementation, we would likely rely on a database or
-    // some other approach (e.g. UUIDs) to ensure a globally unique id. We'll
-    // treat Date.now() as unique-enough for our purposes.
-    var newComment = {
-      id: Date.now(),
-      author: req.body.author,
-      text: req.body.text,
-    };
-    comments.push(newComment);
-    fs.writeFile(COMMENTS_FILE, JSON.stringify(comments, null, 4), function(err) {
-      if (err) {
-        console.error(err);
-        process.exit(1);
-      }
-      res.json(comments);
-    });
-  });
 });
 
 
