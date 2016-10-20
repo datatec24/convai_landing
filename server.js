@@ -5,7 +5,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 // var mongoose = require('mongoose');
-var api = require('./routes/api');
+// var api = require('./routes/api');
 
 //
 // // Use native Node promises
