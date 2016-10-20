@@ -4,7 +4,7 @@ var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 var api = require('./routes/api');
 
 //
@@ -35,10 +35,6 @@ app.use(function(req, res, next) {
     // Disable caching so we'll always get the latest comments.
     res.setHeader('Cache-Control', 'no-cache');
     next();
-});
-
-app.get('/ok', function(req,res){
-    console.log('ok')
 });
 
 
