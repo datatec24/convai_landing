@@ -7,15 +7,15 @@ var app = express();
 var mongoose = require('mongoose');
 var api = require('./routes/api');
 
-
-// Use native Node promises
-mongoose.Promise = global.Promise;
-
-app.set('mongodb_uri',(process.env.MONGODB_URI || 'mongodb://localhost/landingpage'))
-// connect to MongoDB
-mongoose.connect(app.get('mongodb_uri'))
-  .then(() =>  console.log('connection succesful'))
-  .catch((err) => console.error(err));
+// 
+// // Use native Node promises
+// mongoose.Promise = global.Promise;
+//
+// app.set('mongodb_uri',(process.env.MONGODB_URI || 'mongodb://localhost/landingpage'))
+// // connect to MongoDB
+// mongoose.connect(app.get('mongodb_uri'))
+//   .then(() =>  console.log('connection succesful'))
+//   .catch((err) => console.error(err));
 
 var COMMENTS_FILE = path.join(__dirname, 'comments.json');
 
